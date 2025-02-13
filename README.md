@@ -1,3 +1,3 @@
 # aplikasirental
-==aplikasi rental mobil
+aplikasi rental mobil
 okeoke mantap
