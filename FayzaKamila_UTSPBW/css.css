@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Judul tabel di kiri atas */
+.table-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #4a90e2; /* Soft blue */
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Tampilan tabel */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 60px auto; /* Agar tabel berada di tengah */
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam */
+    border-radius: 8px; /* Sudut membulat */
+    overflow: hidden; /* Agar sudut membulat terlihat */
+}
+
+td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 12px;
+    position: relative; /* Untuk posisi absolut dalam sel */
+    font-weight: normal; /* Menghapus efek bold */
+    transition: background-color 0.3s, transform 0.3s; /* Efek transisi */
+}
+
+/* Remove background color for Deskripsi and Harga columns */
+td:nth-child(3), td:nth-child(4) {
+    background-color: transparent; /* No background color for these columns */
+}
+
+/* Highlight the row for 'Sate Ayam' */
+tr:nth-child(3) {
+    background-color: #8FBC8F; /* Light cream background for Sate Ayam row */
+}
+
+/* Posisi teks di kanan atas untuk kolom 3 */
+.top-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: right;
+    width: 90%; /* Agar teks tidak memenuhi sel */
+}
+
+/* Baris kosong untuk jarak */
+.spacer-row {
+    height: 15px; /* Jarak antar baris */
+    background-color: transparent;
+    border: none;
+}
+
+/* Gambar dalam tabel */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    height: auto;
+}
+
+.title {
+    font-weight:bold;
+}
+
+#chocolate {
+    background-color: #D2B48C;
+}
+
+.column {
+    vertical-align: top;
+    text-align: right;
+}
